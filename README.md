@@ -5,7 +5,7 @@ This repository contains the code used to perform Amino Acid Crowdedness (pPSE) 
 Below is an overview of the folders in this repository:
 
 - [MsrKD](#MsrKD)
-- [Ramachandran Analysis](#Ramachandran-Analysis)
+- [Ramachandran-Analysis](#Ramachandran-Analysis)
 - [RvsS](#RvsS)
 - [alphafold_data](#alphafold_data)
 - [global_data](#global_data)

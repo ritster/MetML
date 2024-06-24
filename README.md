@@ -2,6 +2,8 @@
 
 This repository contains the datasets and code used to perform amino acid crowdedness (pPSE) and Ramachandran analyses on (TODO: explain the datasets better), using information from predicted protein structures deposited in the [AlphaFold](https://alphafold.ebi.ac.uk/) database.
 
+Paper: (TODO: link to paper)
+
 ### Repository Structure
 
 Below is an overview of the folders in this repository as well as brief descriptions of each relevant file in logical order (not alphabetical).

@@ -25,7 +25,6 @@ Below is an overview of the folders in this repository as well as brief descript
 - `datagen-RvsS.ipynb`: The code used to calculate the crowdedness (pPSE) for each Met site and generate the two following data files.
 - `RvsS_peptides_with_alphafold.csv`: The RvsS dataset with additional information for Met site identification and pPSE analysis.
 - `RvsS_full_mitochondrial_with_alphafold.csv`: The Mouse MitoCarta3.0 dataset with additional information for Met site identification and pPSE analysis.
-- `analysis-playground-RvsS.ipynb`: The code used to analyze the previous two data files and generate a preliminary understanding of our data.
 
 ### MsrKD
 

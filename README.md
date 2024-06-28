@@ -8,7 +8,7 @@ Paper: (TODO: link to paper)
 
 Below is an overview of the folders in this repository as well as brief descriptions of each relevant file in logical order.
 
-- [RvsS](#RvsS)
+- [Mitochondria](#Mitochondria)
 
 - [MsrKD](#MsrKD)
 
@@ -18,13 +18,13 @@ Below is an overview of the folders in this repository as well as brief descript
 
 - [global_data](#global_data)
 
-### RvsS
+### Mitochondria
 
-- `RvsS_DataSet.xlsx`: Identified prochiral Met oxidation sites in purified mitochondria derived from mouse liver.
+- `Mitochondria_DataSet.xlsx`: Identified prochiral Met oxidation sites in purified mitochondria derived from mouse liver.
 - `Mouse.MitoCarta3.0.xls`: The Mouse MitoCarta3.0 dataset from the [Broad Institute](https://www.broadinstitute.org/mitocarta/mitocarta30-inventory-mammalian-mitochondrial-proteins-and-pathways). This is a curated, updated collection of nuclear and mtDNA genes encoding proteins with strong support of mitochondrial localization.
-- `datagen-RvsS.ipynb`: The code used to calculate the crowdedness (pPSE) for each Met site and generate the two following data files.
-- `RvsS_peptides_with_alphafold.csv`: The RvsS dataset with additional information for Met site identification and pPSE analysis.
-- `RvsS_full_mitochondrial_with_alphafold.csv`: The Mouse MitoCarta3.0 dataset with additional information for Met site identification and pPSE analysis.
+- `datagen-Mitochondria.ipynb`: The code used to calculate the crowdedness (pPSE) for each Met site and generate the two following data files.
+- `Mitochondria_peptides_with_alphafold.csv`: The Mitochondria dataset with additional information for Met site identification and pPSE analysis.
+- `Mitochondria_mitocarta_with_alphafold.csv`: The Mouse MitoCarta3.0 dataset with additional information for Met site identification and pPSE analysis.
 
 ### MsrKD
 

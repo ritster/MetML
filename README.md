@@ -29,12 +29,10 @@ Below is an overview of the folders in this repository as well as brief descript
 
 ### MsrKD
 
-- `05_06_24_Combined_Proteomics.xlsx`: (TODO: delete dataset)
 - `05_10_24_293T_MsrKD_data.xlsx`: Identified prochiral Met oxidation sites in oxidatively-stressed HEK-293T cells with MsrA or MsrB knocked down.
 - `datagen-MsrKD.ipynb`: The code used to calculate the crowdedness (pPSE) for each Met site and generate the two following data files.
 - `MsrAKD_with_alphafold.csv`: The MsrAKD dataset with additional information for Met site identification and pPSE analysis.
 - `MsrB2KD_with_alphafold.csv`: The MsrB2KD dataset with additional information for Met site identification and pPSE analysis.
-- `coverage-MsrKD.ipynb`: The code used to conduct a coverage analysis of the previous two data files, looking for the percentage of possible Met sites in the mitochondrial proteome that were tagged by our probes.
 
 ### Ramachandran-Analysis
 
@@ -51,4 +49,4 @@ Below is an overview of the folders in this repository as well as brief descript
 
 ### global_data
 
-- `complete_sequence_cache.csv`: The file where we cache the UniProtID to AA sequence mapping for all relevant proteins across all datasets.
+- `complete_sequence_cache.csv`: The file where we cache the UniProtID to amino acid sequence mapping for all relevant proteins across all datasets.

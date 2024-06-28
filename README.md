@@ -38,9 +38,7 @@ Below is an overview of the folders in this repository as well as brief descript
 
 ### Ramachandran-Analysis
 
-- `extraction_of_dihedral_angles.ipynb`: The code used to extract the psi/phi angles from all of the AlphaFold structures stored in [alphafold_data/](/alphafold_data/) to generate the following dataset. Also generates the following 3 datasets.
-- `dihedral_angles.csv`: The file where we cache the psi/phi angles for all residues in all relevant proteins across all datasets
-- `RvsS_with_PSI_and_PHI.csv`: The RvsS dataset, appended with the psi/phi angles of each residue in the dataset.
+- `extraction_of_dihedral_angles.ipynb`: The code used to extract the psi/phi angles from all of the AlphaFold structures stored in [alphafold_data/](/alphafold_data/) to generate the following two data files.
 - `MsrAKD_with_PSI_and_PHI.csv`: The MsrAKD dataset, appended with the psi/phi angles of each residue in the dataset.
 - `MsrBKD_with_PSI_and_PHI.csv`: The MsrBKD dataset, appended with the psi/phi angles of each residue in the dataset.
 
@@ -51,4 +49,5 @@ Below is an overview of the folders in this repository as well as brief descript
 
 ### global_data
 
-- `complete_sequence_cache.csv`: The file where we cache the UniProtID to AA sequence mapping for all relevant proteins across all datasets.
+- `complete_sequence_cache.csv`: The file where we cache the UniProtID to amino acid sequence mapping for all relevant proteins across all datasets.
+- `dihedral_angles.csv`: The file where we cache the psi/phi angles for all residues in all relevant proteins across all datasets

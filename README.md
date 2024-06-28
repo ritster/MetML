@@ -49,4 +49,4 @@ Below is an overview of the folders in this repository as well as brief descript
 ### global_data
 
 - `complete_sequence_cache.csv`: The file where we cache the UniProtID to amino acid sequence mapping for all relevant proteins across all datasets.
-- `dihedral_angles.csv`: The file where we cache the psi/phi angles for all residues in all relevant proteins across all datasets
+- `dihedral_angles.csv`: The file where we cache the psi/phi angles for all residues in all relevant proteins across all datasets.

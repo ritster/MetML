@@ -29,9 +29,9 @@ Below is an overview of the folders in this repository as well as brief descript
 ### MsrKD
 
 - `05_10_24_293T_MsrKD_data.xlsx`: Identified prochiral Met oxidation sites in oxidatively-stressed HEK-293T cells with MsrA or MsrB knocked down.
-- `datagen-MsrKD.ipynb`: The code used to calculate the crowdedness (pPSE) for each Met site and generate the two following data files.
-- `MsrAKD_with_alphafold.csv`: The MsrAKD dataset with additional information for Met site identification and pPSE analysis.
-- `MsrB2KD_with_alphafold.csv`: The MsrB2KD dataset with additional information for Met site identification and pPSE analysis.
+- `datagen-MsrKD.ipynb`: The code used to generate the two following data files.
+- `MsrAKD_clean.csv`: The MsrAKD dataset with additional information for Met site identification.
+- `MsrB2KD_clean.csv`: The MsrB2KD dataset with additional information for Met site identification.
 
 ### Ramachandran-Analysis
 

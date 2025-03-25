@@ -47,7 +47,7 @@ def update_sequence_cache(sequence_cache_path: os.path, uniprotIDs: list[str], v
         return
 
     unknown_sequences_df = pd.DataFrame({"Protein ID": unknown_uniprotIDs})
-    print(f"{n_unknown} unknown sequences to retrieve.")
+    print(f"{n_unknown} unknown sequence(s) to retrieve.")
 
     # Retrieve sequences for unknown proteins
     tqdm.pandas()
@@ -57,7 +57,7 @@ def update_sequence_cache(sequence_cache_path: os.path, uniprotIDs: list[str], v
     # Update cache with newly retrieved sequences
     sequence_cache_df_updated = pd.concat([sequence_cache_df, unknown_sequences_df])
     sequence_cache_df_updated.to_csv(sequence_cache_path)
-    print(f"Updated {sequence_cache_path} with {n_unknown} new protein sequences.")
+    print(f"Updated {sequence_cache_path} with {n_unknown} new protein sequence(s).")
     return
 
 def create_modifications_pattern(amino_acid: str, modifications: list[str]) -> str:
